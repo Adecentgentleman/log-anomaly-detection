@@ -1,0 +1,23 @@
+{
+  "thresholds": {
+    "disk_used_pct": {"warn": 80, "fail": 90},
+    "mem_used_pct": {"warn": 85, "fail": 95},
+    "cpu_used_pct": {"warn": 80, "fail": 95}
+  },
+  "ports": [
+    {"host": "127.0.0.1", "port": 80, "desc": "nginx"},
+    {"host": "127.0.0.1", "port": 3306, "desc": "mysql"}
+  ],
+  "processes": ["python", "python.exe"],
+  "dirs": [
+    {"path": ".", "desc": "工作目录"}
+  ],
+  "log_files": [
+    {"path": "config.json", "max_mb_warn": 100, "max_mb_fail": 500}
+  ],
+  "mail": {
+    "from": "ops-check@example.local",
+    "to": ["oncall@example.local"],
+    "subject_prefix": "[巡检告警]"
+  }
+}

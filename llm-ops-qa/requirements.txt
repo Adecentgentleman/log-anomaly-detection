@@ -1,0 +1,3 @@
+# 离线检索模式只需要 numpy（TF-IDF 向量与余弦相似度）。
+# LLM 生成模式走标准库 urllib.request，不需要 openai SDK，也不需要 langchain。
+numpy>=1.24

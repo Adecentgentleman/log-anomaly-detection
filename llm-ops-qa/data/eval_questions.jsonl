@@ -1,0 +1,10 @@
+{"id": "q01", "question": "nginx 502 怎么排查", "expected_id": "kb001"}
+{"id": "q02", "question": "服务器磁盘满了怎么清理", "expected_id": "kb003"}
+{"id": "q03", "question": "MySQL 查询很慢，怎么定位是哪条 SQL", "expected_id": "kb007"}
+{"id": "q04", "question": "CPU 使用率一直 100%，怎么找是哪个进程", "expected_id": "kb004"}
+{"id": "q05", "question": "进程突然没了，怎么确认是不是被 OOM killer 杀掉的", "expected_id": "kb005"}
+{"id": "q06", "question": "8080 端口被占用了，怎么找到占用它的进程", "expected_id": "kb006"}
+{"id": "q07", "question": "HTTPS 证书过期了怎么更换", "expected_id": "kb009"}
+{"id": "q08", "question": "域名解析失败，DNS 怎么排查", "expected_id": "kb010"}
+{"id": "q09", "question": "系统负载很高但 CPU 使用率不高，是什么原因", "expected_id": "kb013"}
+{"id": "q10", "question": "日志文件涨得太快，怎么做轮转和限制", "expected_id": "kb011"}
